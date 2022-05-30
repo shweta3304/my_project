@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ghost_image.jpg</file>
+    </qresource>
+</RCC>

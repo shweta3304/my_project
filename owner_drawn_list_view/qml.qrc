@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Colormodel.qml</file>
+        <file>Color_delegate.qml</file>
+    </qresource>
+</RCC>

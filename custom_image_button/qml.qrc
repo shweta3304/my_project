@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>coolButton.qml</file>
+        <file>green_arrow.jpg</file>
+        <file>red_arrow.png</file>
+    </qresource>
+</RCC>

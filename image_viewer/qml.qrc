@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>hoverbutton.qml</file>
+        <file>cat.jpg</file>
+        <file>dog.jpg</file>
+        <file>fish.jpg</file>
+        <file>logo.png</file>
+        <file>HButton.qml</file>
+    </qresource>
+</RCC>

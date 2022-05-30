@@ -1,0 +1,39 @@
+import QtQuick 2.15
+import QtQuick.Window 2.15
+
+Window {
+    width: 640
+    height: 480
+    visible: true
+    title: qsTr("Hello World")
+
+    Rectangle{
+        id:myshape
+        color:"red"
+        width:200
+        height:200
+        anchors.centerIn: parent
+
+        Text {
+            id: title
+            text: Math.round(parent.rotation)
+            anchors.centerIn: parent
+            font.bold: true
+            font.pointSize: 65
+            color:"yellow"
+
+        }
+        RotationAnimation{
+            id:animation
+            target:myshape
+            loops:Animation.Infinite
+            from:myshape.rotation
+            to:360
+            direction: RotationAnimation.clockwise
+            duration:3000
+            running:true
+
+
+        }
+    }
+}

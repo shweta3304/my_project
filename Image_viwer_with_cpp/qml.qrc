@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ImagePage.qml</file>
+        <file>../../image/download.jpg</file>
+        <file>../../image/ghost_image.jpg</file>
+    </qresource>
+</RCC>
